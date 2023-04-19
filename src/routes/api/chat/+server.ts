@@ -88,7 +88,7 @@ async function insertMessage(message: string, role: string, name: string, email:
   }
 }
 
-const OPENAI_KEY = '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';
+const OPENAI_KEY = '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';
 
 export const config: Config = {
   runtime: 'edge',

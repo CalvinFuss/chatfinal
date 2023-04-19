@@ -19,6 +19,8 @@
 		"@sveltejs/adapter-vercel": "^2.3.0",
 		"@sveltejs/kit": "^1.10.0",
 		"@types/common-tags": "^1.8.1",
+		"@types/natural": "^5.1.2",
+		"@types/stopword": "^2.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",
 		"@typescript-eslint/parser": "^5.54.0",
 		"autoprefixer": "^10.4.13",
@@ -44,7 +46,10 @@
 	"type": "module",
 	"dependencies": {
 		"gpt3-tokenizer": "^1.1.5",
+		"ml-matrix": "^6.10.4",
+		"natural": "^6.2.0",
 		"openai": "^3.2.1",
-		"sse.js": "^0.6.1"
+		"sse.js": "^0.6.1",
+		"stopword": "^2.0.8"
 	}
 }
